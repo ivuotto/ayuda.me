@@ -1,0 +1,20 @@
+/* styles.css */
+
+
+/* hoja de estilos para diseño */
+
+#header {
+    background-color: grey;
+}
+#wrapper {
+    background-color: red;
+}
+.left {
+    background-color: green;
+}
+.middle {
+    background-color: yellow;
+}
+.right {
+    background-color: blue;
+}
