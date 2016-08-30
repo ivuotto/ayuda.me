@@ -1,0 +1,37 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  min-height: 50px;
+  border: 1px solid transparent;
+  margin-bottom: 0px;
+}
+
+.img-responsive{
+  position: absolute;
+  width: 100%;
+  clip: rect(0px 10000px 550px 0px);
+  margin-top: 0px;
+}
+
+h2{
+  position: absolute;
+  top: 200px;
+  width: 100%;
+}
+
+.header{
+  position: absolute;
+  top: 320px;
+  width: 100%;
+}
+
+.header-btn{
+  position: absolute;
+  top: 370px;
+  width: 100%;
+}
+
+.row{
+  position: absolute;
+  margin-top: 610px;
+}
