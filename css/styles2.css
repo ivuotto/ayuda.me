@@ -1,0 +1,47 @@
+body{
+  font-family: 'Exo', sans-serif;
+  font-family: 'Questrial', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  /*background-image: url(../img/fondo.jpg);*/
+  background-image: url(../img/work2.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  
+}
+
+h1{
+  font-size: 45px;
+  /*font-weight: bolder;*/
+  color: #0EB29A;
+}
+
+.encabezado{
+  text-align: center;
+  margin-top: 30px;
+  background-color: #F5FDFF;
+  border: 1px solid #0EB29A;
+  border-radius: 10px;
+}
+
+.cuerpo{
+  text-align: center;
+  margin-top: 30px;
+  background-color: #F5FDFF;
+  border: 1px solid #0EB29A;
+  border-radius: 10px;
+}
+
+.boxes_formulario{
+  font-size: 20px;
+  color: #8C999A;
+  padding: 8px 0px 15px 0px;
+}
+
+.inputs{
+  width: 80%;
+  font-size: 20px;
+  color: #98B4A6;
+  height: 50px;
+  border-radius: 5px;
+}
