@@ -1,20 +1,177 @@
-/* styles.css */
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bodyindex{
+  background-image: url(../img/work3.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+.bodyreg{
+  background-image: url(../img/work1.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+.bodylogin{
+  background-image: url(../img/work2.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+.bodyfaqs{
+  background-image: url(../img/work2.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+.faqsp{
+  color: #FFF;
+  font-size: bolder;
+}
+
+.icon-bar{
+  background-color: #000;
+}
+
+.navbar-toggle{
+  background-color: lightgrey;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.navbar-brand{
+  color: #000;
+}
+
+.nav.navbar-nav.navbar-right li a{
+  color: #000;
+}
+
+.last{
+  padding-bottom: 80px;
+}
+
+.leyenda{
+  padding: 70px 0px 25px 0px;
+  font-size: 30px;
+}
+
+.fondotransparente{
+  background-color: rgba(255, 255, 255, 0.49);
+}
+
+.fondeado{
+  background-color: rgba(255, 255, 255, 0.49);
+  text-align: right;
+}
+
+.h1reg{
+  color: #000;
+}
+
+h2, p.cont{
+  background-color: rgba(255, 255, 255, 0.49);
+}
+
+.foot{
+  padding-top: 10px;
+}
+
+.header-btn{
+  text-align: center;
+}
+
+.logo{
+  height: 70px;
+}
+
+.navegador{
+  position: fixed;
+  z-index: 1;
+  background-color: #FFF;
+  height: 50px;
+  color: #000;
+}
+
+span.iconbar{
+  color: #000;
+}
 
 
-/* hoja de estilos para diseño */
+.contenidop{
+  position: relative;
+  left: 0px;
+  top: 50px;
+  background-color: #FFF;
+  height: auto;
+  padding-bottom: 80px;
+}
 
-#header {
-    background-color: grey;
+
+.footer{
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  background-color: grey;
+  height: 50px;
 }
-#wrapper {
-    background-color: red;
+
+h1{
+  font-size: 45px;
+  color: #FFF;
 }
-.left {
-    background-color: green;
+
+.encabezado{
+  margin-top: 50px;
 }
-.middle {
-    background-color: yellow;
+
+.cuerpo{
+  margin-top: 30px;
 }
-.right {
-    background-color: blue;
+
+label{
+  color: #000;
+  background-color: #FFF;
+  padding: 0px 5px;
+}
+
+.boxes_formulario{
+  font-size: 20px;
+  color: #8C999A;
+  padding: 8px 0px 15px 0px;
+}
+
+.inputs{
+  width: 80%;
+  font-size: 20px;
+  color: #98B4A6;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.boxes_formulario.final{
+  padding-bottom: 70px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
 }
