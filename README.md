@@ -1,2 +1,0 @@
-# ayuda.me
-Proyecto Integrador
