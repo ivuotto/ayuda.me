@@ -16,6 +16,7 @@
 </head>
 
 <body class="bodyreg">
+  <script type="text/javascript" src="JS/validacion.js"></script>
     <div class="container-fluid">
         <!-- ENCABEZADO CON NAVBAR -->
         <div class="row">
@@ -50,55 +51,61 @@
                 </div>
                 <div class="col-xs-2 col-sm-6 col-md-1 col-lg-1"></div>
             </div>
+<<<<<<< HEAD
             <div class="row">
                 <div class="col-xs-10 col-sm-6 col-md-5 col-md-offset-6 col-lg-5 col-lg-offset-6 cuerpo fondotransparente">
-                    <form class="" action="#" method="post">
+                    <form class="" action="" onsubmit="validarFormulario()" method="post">
                         <div class="boxes_formulario">
                             <label for="nombre">NOMBRE</label><br>
                         </div>
                         <div class="boxes_formulario">
-                            <input type="text" name="nombre" value="" class="inputs">
+                            <input type="text" id="nombre" name="nombre" value="" class="inputs">
                         </div>
                         <div class="boxes_formulario">
                             <label for="apellido">APELLIDO</label><br>
                         </div>
                         <div class="boxes_formulario">
-                            <input type="text" name="apellido" value="" class="inputs">
+                            <input type="text" id="apellido" name="apellido" value="" class="inputs">
                         </div>
                         <div class="boxes_formulario">
                             <label for="edad">EDAD</label><br>
                         </div>
                         <div class="boxes_formulario">
-                            <input type="number" name="edad" value="" class="inputs">
+                            <input type="number" id="edad" name="edad" value="" class="inputs">
                         </div>
                         <div class="boxes_formulario">
                             <label for="email">E-MAIL</label><br>
                         </div>
                         <div class="boxes_formulario">
-                            <input type="email" name="email" value="" class="inputs">
+                            <input type="email" id="email" name="email" value="" class="inputs">
                         </div>
                         <div class="boxes_formulario">
                             <label for="password">INGRESE UNA CLAVE</label><br>
                         </div>
                         <div class="boxes_formulario">
-                            <input type="password" name="password" value="" class="inputs">
+                            <input type="password" id="pass" name="password" value="" class="inputs">
                         </div>
                         <div class="boxes_formulario">
                             <label for="password">REPITA SU CLAVE</label><br>
                         </div>
                         <div class="boxes_formulario">
-                            <input type="password" name="password" value="" class="inputs">
+                            <input type="password" id="passconf" name="password" value="" class="inputs">
                         </div>
                         <<<<<<< HEAD <div class="boxes_formulario final">
                             =======
                             <div class="boxes_formulario">
                                 >>>>>>> origin/master
-                                <button type="button" class="btn btn-default navbar-btn">enviar</button>
-                                <button type="button" class="btn btn-default navbar-btn">borrar</button>
+                                <button type="submit" class="btn btn-default navbar-btn">enviar</button>
+                                <button type="reset" class="btn btn-default navbar-btn">borrar</button>
                             </div>
                     </form>
                 </div>
                 <div class="col-xs-2 col-sm-6 col-md-1 col-lg-1"></div>
+=======
+            <div class="boxes_formulario final">
+              <button type="button" class="btn btn-default navbar-btn">enviar</button>
+              <button type="button" class="btn btn-default navbar-btn">borrar</button>
+>>>>>>> origin/master
             </div>
         </div>
         <!-- FOOTER -->

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
@@ -70,54 +69,10 @@ body{
   background-color: rgba(255, 255, 255, 0.49);
 }
 
-=======
-body{
-  font-family: 'Exo', sans-serif;
-  font-family: 'Questrial', sans-serif;
-  font-family: 'Montserrat', sans-serif;
-  /*background-image: url(../img/fondo.jpg);*/
-  background-image: url(../img/work2.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-attachment: fixed;
-}
-
-.bodyindex{
-  font-family: 'Exo', sans-serif;
-  font-family: 'Questrial', sans-serif;
-  font-family: 'Montserrat', sans-serif;
-  /*background-image: url(../img/fondo.jpg);*/
-  background-image: url(../img/work3.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-attachment: fixed;
-}
-
-.bodyreg{
-  font-family: 'Exo', sans-serif;
-  font-family: 'Questrial', sans-serif;
-  font-family: 'Montserrat', sans-serif;
-  background-image: url(../img/work1.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-attachment: fixed;
-}
-
-.leyenda{
-  padding: 70px 0px 25px 0px;
-  font-size: 30px;
-}
-
-.fondotransparente{
-  background-color: rgba(255, 255, 255, 0.49);
-}
-
->>>>>>> origin/master
 .fondeado{
   background-color: rgba(255, 255, 255, 0.49);
   text-align: right;
 }
-<<<<<<< HEAD
 
 .h1reg{
   color: #000;
@@ -161,7 +116,6 @@ span.iconbar{
   padding-bottom: 80px;
 }
 
-
 .footer{
   position: fixed;
   bottom: 0px;
@@ -183,84 +137,18 @@ h1{
   margin-top: 30px;
 }
 
-=======
-
-.h1reg{
-  color: #000;
-}
-
-h2, p.cont{
-  background-color: rgba(255, 255, 255, 0.49);
-}
-
-.foot{
-  padding-top: 10px;
-}
-
-.header-btn{
-  text-align: center;
-}
-
-.logo{
-  height: 70px;
-}
-
-.navegador{
-  position: fixed;
-  z-index: 1;
-  background-color: #FFF;
-  height: 50px;
-  color: #000;
-}
-
-span.iconbar{
-  color: #000;
-}
-
-
-.contenidop{
-  position: relative;
-  left: 0px;
-  top: 50px;
-  background-color: #FFF;
-  height: auto;
-  padding-bottom: 80px;
-}
-
-
-.footer{
-  position: fixed;
-  bottom: 0px;
-  left: 0px;
-  background-color: grey;
-  height: 50px;
-}
-
-h1{
-  font-size: 45px;
-  /*font-weight: bolder;*/
-  color: #FFF;
-}
-
-.encabezado{
-  margin-top: 50px;
-  /*background-color: #F5FDFF;
-  border: 1px solid #0EB29A;
-  border-radius: 10px;*/
-}
-
-.cuerpo{
-  margin-top: 30px;
-  /*background-color: #F5FDFF;
-  border: 1px solid #0EB29A;
-  border-radius: 10px;*/
-}
-
->>>>>>> origin/master
 label{
   color: #000;
   background-color: #FFF;
   padding: 0px 5px;
+}
+
+#errores{
+  color: red;
+}
+
+.espaciado{
+  margin-bottom: 60px;
 }
 
 .boxes_formulario{
@@ -275,11 +163,14 @@ label{
   color: #98B4A6;
   height: 50px;
   border-radius: 5px;
-<<<<<<< HEAD
 }
 
 .boxes_formulario.final{
   padding-bottom: 70px;
+}
+
+.inputs.rojo{
+  color: red;
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -294,6 +185,4 @@ label{
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
-=======
->>>>>>> origin/master
 }

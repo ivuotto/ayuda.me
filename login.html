@@ -12,6 +12,7 @@
     <!-- HOJA DE ESTILOS PROPIA -->
     <link rel="stylesheet" href="css/styles.css">
     <title>AYUDA.ME - Ingreso</title>
+    <script type="text/javascript" src="JS/validar_login.js"></script>
   </head>
   <body class="bodylogin">
     <div class="container-fluid">
@@ -50,21 +51,24 @@
       </div>
       <div class="row">
         <div class="col-xs-10 col-sm-7 col-md-5 col-lg-4 cuerpo fondotransparente">
-          <form class="" action="#" method="post">
+          <form class="" action="" method="GET">
+            <div class="boxes_formulario">
+              <label id="errores"></label>
+            </div>
             <div class="boxes_formulario">
               <label for="usuario">USUARIO</label><br>
             </div>
             <div class="boxes_formulario">
-              <input type="text" name="usuario" value="" class="inputs">
+              <input type="text" name="usuario_login" value="" class="inputs" id="usuario_login">
             </div>
             <div class="boxes_formulario">
               <label for="password">CLAVE</label><br>
             </div>
             <div class="boxes_formulario">
-              <input type="password" name="password" value="" class="inputs">
+              <input type="password" name="password" value="" class="inputs" id="password_login">
             </div>
-            <div class="boxes_formulario">
-              <button type="button" class="btn btn-default navbar-btn">enviar</button>
+            <div class="boxes_formulario espaciado">
+              <button type="button" class="btn btn-default navbar-btn" id="enviar" onclick="return ejecucion();">enviar</button>
               <button type="button" class="btn btn-default navbar-btn">borrar</button>
             </div>
           </form>
