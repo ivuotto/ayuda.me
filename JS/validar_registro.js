@@ -1,8 +1,0 @@
-
-
-
-
-function validar_registro()
-{
-
-}

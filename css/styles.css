@@ -147,6 +147,10 @@ label{
   color: red;
 }
 
+#errores_reg{
+  color: red;
+}
+
 .espaciado{
   margin-bottom: 60px;
 }

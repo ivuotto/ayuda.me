@@ -1,4 +1,3 @@
-﻿<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -12,33 +11,16 @@
     <!-- HOJA DE ESTILOS PROPIA -->
     <link rel="stylesheet" href="css/styles.css">
     <title>AYUDA.ME - Todos necesitamos una mano</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- BOOTSTRAP JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </head>
   <body class="bodyindex">
     <!-- ENCABEZADO CON NAVBAR -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-md-12 navegador">
-          <div class="navbar navbar-static-top">
-            <a href= "#" class="navbar-brand"><b>AYUDA.ME</b></a>
-            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
 
-            <div class="collapse navbar-collapse navHeaderCollapse">
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="empleos.html">Empleos</a></li>
-                <li><a href="faqs.html">Preguntras Frecuentes</a></li>
-                <li><a href="registro.html">Registro</a></li>
-                <li><a> | </a></li>
-                <li><a href="login.html"><b>Ingresar</b></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+    <!-- POR COMODIDAD Y ANTE EVENTUALES CAMBIOS LLAMAMOS AL ENCABEZADO -->
+    <?php include("navbar.php"); ?>
+
     <!-- ACA COMIENZA EL CONTENIDO "FUERTE" DE CADA PÁGINA -->
       <div class="row">
         <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-2 col-lg-6 col-lg-offset-2 leyenda">
@@ -84,11 +66,8 @@
       </div>
 
       <!-- FOOTER -->
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 footer">
-          <div> <p class="foot">Refiere acá el trabajo de un amigo, un conocido o simplemente alguien que lo necesite.</p> </div>
-        </div>
-      </div>
-    </div>
+
+      <?php include("footer.php"); ?>
+
   </body>
 </html>
