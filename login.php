@@ -1,15 +1,8 @@
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- BOOTSTRAP -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- FUENTE DE GOOGLE -->
-    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <!-- HOJA DE ESTILOS PROPIA -->
-    <link rel="stylesheet" href="css/styles.css">
+    <!--Llamo todos los estilos -->
+    <?php include("llamar_estilos.php") ?>
+
     <title>AYUDA.ME - Ingreso</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- BOOTSTRAP JavaScript -->
@@ -30,12 +23,12 @@
       </div>
       <div class="row">
         <div class="col-xs-10 col-sm-7 col-md-5 col-lg-4 cuerpo fondotransparente">
-          <form class="" action="" method="GET">
+          <form class="" action="" method="POST">
             <div class="boxes_formulario">
               <label id="errores"></label>
             </div>
             <div class="boxes_formulario">
-              <label for="usuario">USUARIO</label><br>
+              <label for="usuario">EMAIL | USUARIO</label><br>
             </div>
             <div class="boxes_formulario">
               <input type="text" name="usuario_login" value="" class="inputs" id="usuario_login">
