@@ -177,6 +177,11 @@ label{
   color: red;
 }
 
+.panel-body{
+  font-size: 15px;
+  color: #454545;
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 }
