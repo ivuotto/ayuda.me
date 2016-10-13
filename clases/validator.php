@@ -32,6 +32,18 @@ class Validator{
     return $errores;
   }
 
+
+  // Estoy agregando la función pública validarLogin. Tengo que usar existeElMail (así que la creo en )
+  public function validarLogin() {
+    $errores = [];
+
+    if (trim($_POST["nombre"]) == "") {
+      $errores = "Por favor, completá su nombre!"
+    } elseif (!$this->UserRepository->existeElMail($_POST["mail"])) {
+      # code...
+    }
+  }
+
 }
 
 ?>

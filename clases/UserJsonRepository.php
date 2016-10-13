@@ -11,6 +11,10 @@ class UserJsonRepository extends UserRepository{
     $usuarioJson= json_encode($miUsuarioArray);
     file_put_contents("usuarios.json",$usuarioJson.PHP_EOL,FILE_APPEND);
   }
+
+  //agregar al función existeElMail, la tengo que usar cuando valido el Login para saber si existe el mail
+  
+
   private function traernuevoId(){
     if(!file_exists("usuarios.json") || filesize("usuarios.json")==0){
       return 1;
