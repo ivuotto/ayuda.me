@@ -40,9 +40,9 @@ class Validator{
     if (trim($_POST["nombre"]) == "") {
       $errores = "Por favor, completá su nombre!"
     } elseif (!$this->UserRepository->existeElMail($_POST["mail"])) {
-      echo "el mail no existe";
+      echo "El mail no existe";
     } elseif (!$this->UserRepository->usuarioValido($_POST["mail"], ["password"])) {
-      echo "el usuario no es válido";
+      echo "El usuario no es válido";
     }
   }
 
