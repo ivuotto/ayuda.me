@@ -33,25 +33,26 @@ class Validator{
   }
 
 
-  // Estoy agregando la función pública validarLogin. Tengo que usar existeElMail (así que la creo en )
+  // Estoy agregando la función pública validarLogin.
+  //Tengo que usar los métodos existeElMail y usuarioValido (así que la creo en userJasnRepository.php)
+
   public function validarLogin() {
     $errores = [];
 
     if (trim($_POST["nombre"]) == "") {
-      $errores = "Por favor, completá su nombre!"
+      $errores = "Por favor, completá su nombre!";
     } elseif (!$this->UserRepository->existeElMail($_POST["mail"])) {
       echo "El mail no existe";
     } elseif (!$this->UserRepository->usuarioValido($_POST["mail"], ["password"])) {
       echo "El usuario no es válido";
     }
-  }
 
-  if (trim($_POST["password"]) == "") {
+    if (trim($_POST["password"]) == "") {
     $errores[] = "por favor, completá la contraseña";
   }
 
-  return $errores;
-
+    return $errores;
+  }
 }
 
 ?>
