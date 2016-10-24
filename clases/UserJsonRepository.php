@@ -3,6 +3,38 @@ require_once("UserRepository.php");
 require_once("usuario.php");
 
 class UserJsonRepository extends UserRepository{
+
+
+  //validamos si existe el mail
+  public function existeElMail($mail)
+  {
+    $usuariosArray = $this->getAllUsers();
+
+    foreach ($usuariosArray as $key => $usuario)
+    {
+      if ($mail == $usuario->getMail())
+      {
+        return true;
+      }
+    }
+
+    return false;
+  }
+
+  // validamos usuario y clave
+  public function usuarioValido($mail, $pass)
+	{
+		$usuario = $this->getUsuarioByMail($mail);
+
+		if ($usuario) {
+			if (password_verify($pass, $usuario->getPassword())) {
+				return true;
+			}
+		}
+
+		return false;
+	}
+
   public function guardarUsuario($miUsuario){
     if ($miUsuario->getId()==null){
       $miUsuario->setId($this->traernuevoId());
