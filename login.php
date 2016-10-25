@@ -90,9 +90,10 @@
            	</div>
 
             <div class="boxes_formulario espaciado">
-              <button type="button" class="btn btn-default navbar-btn" id="enviar" onclick="return ejecucion();">enviar</button>
+              <button type="submit" class="btn btn-default navbar-btn" id="submit" value="Enviar" onclick="return ejecucion();">enviar</button>
               <button type="reset" class="btn btn-default navbar-btn">borrar</button>
             </div>
+
 
           </form>
         </div>
