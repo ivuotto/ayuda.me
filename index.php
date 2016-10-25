@@ -1,3 +1,16 @@
+<?php
+	require_once("soporte.php");
+
+	$nombre = "";
+
+	if ($auth->estaLogueado())
+	{
+		$user = $auth->getUsuarioLogueado();
+
+		$nombre = $user->getNombre();
+	}
+?>
+
 <html>
   <head>
     <!--Llamo todos los estilos -->

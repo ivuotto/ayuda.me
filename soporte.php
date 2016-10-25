@@ -14,4 +14,4 @@ if ($tipoRepositorio== "json")
 }
 
 $auth = Auth::getInstance($repositorio->getUserRepository());
-$validar = validator::getInstance($repositorio->getUserRepository());
+//$validar = validator::getInstance($repositorio->getUserRepository());

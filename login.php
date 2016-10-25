@@ -83,6 +83,12 @@
               <input type="password" name="password" value="" class="inputs" id="password_login">
             </div>
 
+						<!-- agregando boton de recuérdame -->
+						<div class="boxes_formulario">
+             	<label for="usuario">Recordar Usuario</label>
+             	<input type="checkbox" name="recordame"></input>
+           	</div>
+
             <div class="boxes_formulario espaciado">
               <button type="button" class="btn btn-default navbar-btn" id="enviar" onclick="return ejecucion();">enviar</button>
               <button type="reset" class="btn btn-default navbar-btn">borrar</button>
