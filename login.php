@@ -10,7 +10,7 @@
 	{
 		//Sé que llegó acá tras haber enviado el form
 
-		$errores = $validar->validarLogin();
+		$errores = $validar->validarLogin($_POST);
 
 		if (empty($errores))
 		{

@@ -8,7 +8,7 @@
       {
       $usuario = new Usuario($_POST);
       $usuario->setPassword($_POST["password"]);
-      $repositorio->getUserRepository()->guardarUsuario($usuario);
+        $Repository->getUserRepository()->guardarUsuario($usuario);
       }
     }
   ?>

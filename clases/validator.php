@@ -2,6 +2,23 @@
 
 class Validator
 {
+    private $userRepository;
+    private static $instance = null;
+
+    public static function getInstance(UserRepository $userRepository)
+    {
+        if (Validator::$instance === null) {
+            Validator::$instance = new Validator();
+            Validator::$instance->setUserRepository($userRepository);
+        }
+
+        return Validator::$instance;
+    }
+
+    private function setUserRepository(UserRepository $userRepository) {
+        $this->userRepository = $userRepository;
+    }
+
     private function __construct()
       {
 
@@ -38,7 +55,7 @@ class Validator
   //Tengo que usar los métodos existeElMail y usuarioValido (así que la creo en userJasnRepository.php)
 
 
-  public function validarLogin()
+  public function validarLogin($POST)
 
   {
       $errores = [];

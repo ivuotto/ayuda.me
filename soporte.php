@@ -6,12 +6,12 @@ require_once("clases/validator.php");
 require_once("clases/JsonRepository.php");
 
 $tipoRepositorio= "json";
-$repositorio = null;
+$Repository = null;
 
 if ($tipoRepositorio== "json")
 {
-  $repositorio= new JsonRepository();
+    $Repository= new JsonRepository();
 }
 
-$auth = Auth::getInstance($repositorio->getUserRepository());
-//$validar = validator::getInstance($repositorio->getUserRepository());
+$auth = Auth::getInstance($Repository->getUserRepository());
+$validar = Validator::getInstance($Repository->getUserRepository());
